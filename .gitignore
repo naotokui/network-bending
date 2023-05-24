@@ -212,3 +212,10 @@ install_manifest.txt
 
 #figures
 !figures/*.png
+
+ckpt 
+data
+libtorch
+melgan
+runs
+sample 

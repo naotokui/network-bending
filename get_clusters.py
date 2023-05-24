@@ -5,7 +5,8 @@ import os
 import copy
 
 from torchvision import utils
-from model import Generator
+#from model import Generator
+from model_drum import Generator
 from clustering_models import FeatureClassifier
 from tqdm import tqdm
 from util import *
