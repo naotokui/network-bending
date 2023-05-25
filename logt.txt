@@ -1,0 +1,5 @@
+python generate_activation_training_set.py --size 64 --ckpt ./ckpt/drumbeats1_230000.pt 
+
+python train_classifiers.py --data activations/ 
+
+python get_clusters.py --size 64 --ckpt ckpt/drumbeats1_230000.pt --classifier_ckpts models/classifiers_drumbeats --n_layers 8

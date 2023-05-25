@@ -216,6 +216,5 @@ install_manifest.txt
 ckpt 
 data
 libtorch
-melgan
 runs
 sample 
