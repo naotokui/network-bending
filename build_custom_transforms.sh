@@ -6,7 +6,7 @@ fi
 
 echo "$1"
 
-export Torch_DIR="/media/nao/Seagate Expansion Drive/git/network-bending/libtorch/share/cmake/Torch"
+export Torch_DIR="/home/nao/git/network-bending/libtorch/share/cmake/Torch"
 
 cd transforms/resize
 mkdir -p build
